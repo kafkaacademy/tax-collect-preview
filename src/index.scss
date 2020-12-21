@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+}
+
+#kafka_container {
+    background-color: #343837;
+}
+
+svg {
+    background-color: lightgray;
+}
+
+.bigbus {
+    fill: lightblue;
+    fill-opacity: 0.7;
+}
+
+.arrow_polygon {
+    fill: white;
+    stroke: black;
+    stroke-width: 5;
+}
+
+.container-svg-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-container {
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.buttons-container button {
+    padding: 8px 16px;
+    font-size: 25px;
+    background-color: #4caf50;
+}
+
+.buttons-container button:hover {
+    background-color: #ddd;
+}
+
+.genericDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.previewTitle {
+    background-color: lightyellow;
+}
+
+.serviceBus {
+    background-color: lightskyblue;
+}
+
+.kafkaSource {    
+    background-color: lightskyblue;
+}
+
+.kafkaStreamingApp {
+    background-color: Tomato;
+}
+
+.reporting {
+    background-color: lightyellow;
+}
+
+.dialog {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dialog button {
+    font-size: 20px;
+    background-color: #4caf50;
+}
+
+.dialog button:hover {
+    background-color: #ddd;
+}
