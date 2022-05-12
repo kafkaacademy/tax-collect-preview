@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.cjs --open",
-    "build": "webpack --config webpack.prod.cjs"
+    "build": "webpack --config webpack.config.cjs"
   },
-  "author": "Herbrand Hofker, herbrand@kafka.academy",
+  "author": "Herbrand Hofker, herbrand.hofker@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
