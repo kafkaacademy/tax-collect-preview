@@ -17,7 +17,7 @@ export const commentsNL = [
 
     [`Externe bronnen: onze belastingplichtigen`,`
         <p>Het systeem moet verbonden zijn met het handelsregister voor de bedrijven en de personen wonend in ons land</p>
-        <p>Ons systeem moet geabbonneerd zijn op de relevante data uit deze systemen.</p>
+        <p>Ons systeem moet geabonneerd zijn op de relevante data uit deze systemen.</p>
         <p>NB. Dit zal nog niet voldoende zijn, er zijn ook in het buitenland wonende personen, of in het buitenland gevestigde bedrijven, die belastingplichtig zijn.</p>
    `],
 ["RDW (de Haven)",`<p>Ook zal het systeem geabonneerd zijn op data van de RDW, liefst live, zodat we alle registraties, zowel nieuwe, veranderde, of opgezegde registraties  binnenkrijgen.</p>
@@ -26,7 +26,7 @@ export const commentsNL = [
 
   ["Heffen is het proces, dat bepaald welke belasting op het voertuig moet worden geheven, en per wanneer",`
    <ul>
-        <li>Het "Heffen" proces abbonneert zich op binnenkomende gebeurtenissen van de  RDW registratie</li>
+        <li>Het "Heffen" proces abonneert zich op binnenkomende gebeurtenissen van de  RDW registratie</li>
         <li>Als er een RDW registratie event binnenkomt, wordt het "Heffen" proces uitgevoerd voor deze registratie.</li>
         <li>Dit is een voorbeeld van een "streaming application" en gaat geheel automatisch.</li>
      </ul>
@@ -35,14 +35,14 @@ export const commentsNL = [
       <ul>
             <li>Gaan volledig automatisch</li>
             <li>Bij een technisch probleem, wordt technisch support automatisch gewaarschuwd (een web applicatie).</i>
-            <li>Bij een functioneel probleem, bijv. een soort auto die niet door het systeem herkend wordt,  wordt de support helpdesk(web applicatiei) gewaarschuwd.</li>
+            <li>Bij een functioneel probleem, bijv. een soort auto die niet door het systeem herkend wordt,  wordt de support helpdesk(web applicatie) gewaarschuwd.</li>
         </ul>       
         
     `],
 
    ['Het proces "Innen" besluit hoe de belasting ge&iuml;nd gaat worden',`
         <ul>     
-            <li>Het "Innen" proces abbonneerd zich op inkomende events van het proces "Heffen".</li>
+            <li>Het "Innen" proces abonneerd zich op inkomende events van het proces "Heffen".</li>
             <li>Er kunnen verschillende methoden zijn hoe de belastingplichtige wil betalen (incasso, met de bank, contant ...).</li>
             <li>Hier wordt een betalingsverplichting gecre&euml;erd.</li>            
             <li>Ook dit is een "streaming application" en gaat volledig automatisch.</li>            
@@ -56,17 +56,17 @@ export const commentsNL = [
     ['"Toekenning" is het proces, waar  beslissingen genomen worden over hoe binnenkomende betalingen verwerkt worden.',`
     <ul>
      
-            <li>Het "toekenning" proces abbonnert zich op binnenkomende events van de "Banc" en op binnenkomende betalingsverplichtingen van "Innen" .</li>
+            <li>Het "toekenning" proces abonnert zich op binnenkomende events van de "Banc" en op binnenkomende betalingsverplichtingen van "Innen" .</li>
             <li>Er wordt geprobeerd een betaling te koppelen aan een betalingsverplichting.</li>
             <li>Dit proces kan redelijk ingewikkeld worden, het is de kunst hier goede algortitmes voor te maken.</li>            
-            <li>Een goede web applicatie voor de helpdesk is hier absolutt noodzakelijk</li>            
+            <li>Een goede web applicatie voor de helpdesk is hier absoluut noodzakelijk</li>            
         </ul> 
     `],
 
    ['"Debiteuren beheer" is het proces waar behandeld wordt bij niet of te laat voldoen aan de betalingsverplichtingen.',`
     <ul>
      
-            <li>Het "Debiteuren Beheer" proces abbonneert zich op de events  "Betalings Verplichtingen", gefilterd op overschrijding van de uiterste betaaldatum.</li>
+            <li>Het "Debiteuren Beheer" proces abonneert zich op de events  "Betalings Verplichtingen", gefilterd op overschrijding van de uiterste betaaldatum.</li>
             <li>Het kan bijvoorbeeld aanmaningen initi&euml;ren. (voor bijv. afdrukken en versturen zie later)
         </ul>
     `],
@@ -75,7 +75,7 @@ export const commentsNL = [
     ['CQRS',`
         <p>
             CQRS : Command Query Responsibility Segregation is de manier om data beschikbaar te maken een externe systemen.
-            Externe applicaties kunnen zich op bapaalde subsets van de events in Kafka abboneren.
+            Externe applicaties kunnen zich op bapaalde subsets van de events in Kafka abonneren.
         </p>
       
         <p>
