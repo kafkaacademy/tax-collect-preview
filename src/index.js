@@ -1,4 +1,4 @@
-import './index.scss';
+import './index.css';
 import { addServiceBus, createSource, createStreamingApp, addTextToSvg, arrow, dblArrow } from './functions.js';
 import { sources,streamingApps,commentsNL } from './data.js';
 
